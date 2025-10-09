@@ -1,18 +1,41 @@
+*{
+    margin: 10;
+    padding: 10;
+    font-family: base;
+    box-sizing: border-box;
+}
+
+
 h1{
-    color:blue;
+    color:black;
     font-size: 80px;
     font-family: "Lobster", sans-serif;
     font-weight: 400;
     font-style: normal;
+    display: flex;
+    justify-content: center;
 }
 
-.paragrafo{
-    background-color: aquamarine;
+
+body{
     color: black;
+    font-size: 15px;
 }
 
-#paragrafo{
-    background-color: black;
-    color:white;
+#me{
+    background-color: rgb(150, 245, 213);
+    color: black;
+    font-family:serif;
+    margin: 25px;
+    padding: 20px;
+    display: flex;
+    justify-content:center;     
+}
+
+.aboutMe{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
 }
 
